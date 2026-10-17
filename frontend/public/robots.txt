@@ -1,0 +1,13 @@
+# robots.txt for DramaApp
+User-agent: *
+Allow: /
+Allow: /catalogo
+Allow: /serie/
+Allow: /buscar
+
+# Disallow administration endpoints from web indexing
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://dramaapp.tv/sitemap.xml

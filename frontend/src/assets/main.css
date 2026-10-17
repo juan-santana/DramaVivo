@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-background text-text-main font-sans antialiased overflow-x-hidden selection:bg-primary selection:text-white;
+    min-height: 100vh;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0a0a0f;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1e1e2d;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #28283d;
+  }
+}
+
+@layer components {
+  /* Glassmorphism utility */
+  .glass-panel {
+    background: rgba(20, 20, 31, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-header {
+    background: rgba(10, 10, 15, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  /* Card shine hover effect */
+  .card-hover-glow {
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .card-hover-glow:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 30px -10px rgba(229, 9, 20, 0.35);
+  }
+
+  /* Horizontal hide scrollbar */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Top 10 Big Numbers Stroke Effect */
+  .stroke-number {
+    -webkit-text-stroke: 4px rgba(255, 255, 255, 0.35);
+    color: rgba(10, 10, 15, 0.85);
+    line-height: 0.8;
+  }
+}
+
+/* Video.js Dark Cinematic Theme Customization */
+.video-js {
+  font-family: inherit;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #000 !important;
+}
+
+.video-js video,
+.video-js .vjs-tech {
+  object-fit: contain !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  background-color: #000 !important;
+  margin: auto !important;
+}
+
+.video-js .vjs-big-play-button {
+  background-color: rgba(229, 9, 20, 0.85) !important;
+  border: 2px solid rgba(255, 255, 255, 0.4) !important;
+  border-radius: 50% !important;
+  width: 68px !important;
+  height: 68px !important;
+  line-height: 64px !important;
+  top: 50% !important;
+  left: 50% !important;
+  margin-top: -34px !important;
+  margin-left: -34px !important;
+  box-shadow: 0 0 25px rgba(229, 9, 20, 0.6) !important;
+  transition: transform 0.2s ease, background-color 0.2s ease !important;
+}
+
+.video-js:hover .vjs-big-play-button {
+  background-color: #e50914 !important;
+  transform: scale(1.08) !important;
+}
+
+.video-js .vjs-control-bar {
+  background: linear-gradient(to top, rgba(10, 10, 15, 0.95), transparent) !important;
+  height: 3.5rem !important;
+  padding: 0 0.5rem !important;
+}
+
+.video-js .vjs-play-progress {
+  background-color: #e50914 !important;
+}
+
+.video-js .vjs-load-progress {
+  background: rgba(255, 255, 255, 0.25) !important;
+}
+
+.video-js .vjs-slider {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}

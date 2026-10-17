@@ -1,0 +1,82 @@
+version: '3.8'
+
+services:
+  # --- MongoDB ---
+  mongo:
+    image: mongo:7
+    container_name: dramaapp-mongo
+    restart: unless-stopped
+    ports:
+      - "${MONGO_PORT:-27017}:27017"
+    environment:
+      MONGO_INITDB_DATABASE: ${MONGO_DATABASE:-dramaapp}
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME:-}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:-}
+    volumes:
+      - mongo_data:/data/db
+      - ./docker/mongo/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # --- Backend (Spring Boot) ---
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: dramaapp-backend
+    restart: unless-stopped
+    ports:
+      - "${SERVER_PORT:-8080}:8080"
+    environment:
+      SPRING_DATA_MONGODB_HOST: mongo
+      SPRING_DATA_MONGODB_PORT: 27017
+      SPRING_DATA_MONGODB_DATABASE: ${MONGO_DATABASE:-dramaapp}
+      JWT_SECRET: ${JWT_SECRET:-change-me-to-a-long-random-string}
+      JWT_EXPIRATION_HOURS: ${JWT_EXPIRATION_HOURS:-24}
+      ADMIN_DEFAULT_USERNAME: ${ADMIN_DEFAULT_USERNAME:-admin}
+      ADMIN_DEFAULT_PASSWORD: ${ADMIN_DEFAULT_PASSWORD:-changeme123!}
+      VIDEO_PROVIDER: ${VIDEO_PROVIDER:-local}
+    depends_on:
+      mongo:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/actuator/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  # --- Frontend (Nginx + Vue) ---
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8080/api}
+    container_name: dramaapp-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  # --- Scraper (Python) ---
+  scraper:
+    build:
+      context: ./scraper
+      dockerfile: Dockerfile
+    container_name: dramaapp-scraper
+    restart: unless-stopped
+    environment:
+      SCRAPER_API_URL: http://backend:8080/api/admin
+      SCRAPER_API_KEY: ${SCRAPER_API_KEY:-}
+      SCRAPER_SCHEDULE_HOURS: ${SCRAPER_SCHEDULE_HOURS:-6}
+      SCRAPER_ALLOWED_DOMAINS: ${SCRAPER_ALLOWED_DOMAINS:-}
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  mongo_data:

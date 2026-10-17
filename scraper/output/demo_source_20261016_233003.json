@@ -1,0 +1,615 @@
+{
+  "source_id": "demo_source",
+  "exported_at": "2026-10-16T23:30:03.585421+00:00",
+  "metrics": {
+    "series_count": 5,
+    "episodes_count": 50,
+    "rights_count": 0
+  },
+  "job_metadata": {
+    "partial_errors": false
+  },
+  "series": [
+    {
+      "source_id": "demo_source",
+      "source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "title": "El Secreto del Multimillonario",
+      "original_title": "The Billionaire's Secret",
+      "synopsis": "Sofia oculta su verdadera identidad cuando comienza a trabajar para el implacable magnate Mateo Castillo.",
+      "genres": [
+        "Romance",
+        "Drama",
+        "CEO"
+      ],
+      "language": "es",
+      "episode_count": 10,
+      "poster_url": "https://demo.dramaapp.local/images/posters/secreto_multimillonario.jpg",
+      "trailer_url": "https://demo.dramaapp.local/trailers/secreto_multimillonario.mp4",
+      "publication_date": "2026-01-15",
+      "extracted_at": "2026-10-16T23:30:03.569233Z",
+      "seo_title": "El Secreto del Multimillonario | Drama Romantico HD",
+      "seo_description": "Mira todos los episodios de El Secreto del Multimillonario en linea en DramaApp."
+    },
+    {
+      "source_id": "demo_source",
+      "source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "title": "Venganza y Poder",
+      "original_title": "Revenge and Power",
+      "synopsis": "Tras perderlo todo por la traicion de su familia, Alejandro regresa con una nueva identidad para cobrar venganza.",
+      "genres": [
+        "Drama",
+        "Suspenso",
+        "Venganza"
+      ],
+      "language": "es",
+      "episode_count": 12,
+      "poster_url": "https://demo.dramaapp.local/images/posters/venganza_poder.jpg",
+      "trailer_url": "https://demo.dramaapp.local/trailers/venganza_poder.mp4",
+      "publication_date": "2026-02-01",
+      "extracted_at": "2026-10-16T23:30:03.569233Z",
+      "seo_title": "Venganza y Poder | Miniserie de Suspenso",
+      "seo_description": "Descubre la trama de venganza mas intensa de la temporada en DramaApp."
+    },
+    {
+      "source_id": "demo_source",
+      "source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "title": "La Heredera Rebelde",
+      "original_title": "The Rebel Heiress",
+      "synopsis": "Para no casarse con el heredero que su padre eligio, Camila escapa a la ciudad y se convierte en taxista.",
+      "genres": [
+        "Comedia",
+        "Romance",
+        "Familiar"
+      ],
+      "language": "es",
+      "episode_count": 8,
+      "poster_url": "https://demo.dramaapp.local/images/posters/heredera_rebelde.jpg",
+      "trailer_url": "https://demo.dramaapp.local/trailers/heredera_rebelde.mp4",
+      "publication_date": "2026-02-14",
+      "extracted_at": "2026-10-16T23:30:03.569233Z",
+      "seo_title": "La Heredera Rebelde | Comedia Romantica",
+      "seo_description": "Risas y amor en cada minuto con La Heredera Rebelde."
+    },
+    {
+      "source_id": "demo_source",
+      "source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "title": "Amor en la Oficina",
+      "original_title": "Office Romance",
+      "synopsis": "Un contrato temporal une a dos rivales de negocios en un juego donde los sentimientos no estaban en las clausulas.",
+      "genres": [
+        "Romance",
+        "Oficina"
+      ],
+      "language": "es",
+      "episode_count": 15,
+      "poster_url": "https://demo.dramaapp.local/images/posters/amor_oficina.jpg",
+      "trailer_url": "https://demo.dramaapp.local/trailers/amor_oficina.mp4",
+      "publication_date": "2026-03-01",
+      "extracted_at": "2026-10-16T23:30:03.569233Z",
+      "seo_title": "Amor en la Oficina | Romance Latino",
+      "seo_description": "Dos ejecutivos rivales descubren que del odio al amor hay un solo paso."
+    },
+    {
+      "source_id": "demo_source",
+      "source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "title": "Sombras del Pasado",
+      "original_title": "Shadows of the Past",
+      "synopsis": "Una llamada telefonica a medianoche desata una ola de revelaciones que amenazan con destruir el imperio De la Vega.",
+      "genres": [
+        "Misterio",
+        "Suspenso"
+      ],
+      "language": "es",
+      "episode_count": 10,
+      "poster_url": "https://demo.dramaapp.local/images/posters/sombras_pasado.jpg",
+      "trailer_url": "https://demo.dramaapp.local/trailers/sombras_pasado.mp4",
+      "publication_date": "2026-03-20",
+      "extracted_at": "2026-10-16T23:30:03.569233Z",
+      "seo_title": "Sombras del Pasado | Drama de Misterio",
+      "seo_description": "Secretos familiares salen a la luz en esta atrapante miniserie."
+    }
+  ],
+  "episodes": [
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 1,
+      "title": "El Encuentro Inesperado",
+      "synopsis": "Sofia llega tarde a su entrevista de trabajo y choca accidentalmente con Mateo en el ascensor.",
+      "duration_seconds": 120,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep1_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep1.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 2,
+      "title": "Un Contrato Inusual",
+      "synopsis": "Mateo le propone a Sofia fingir ser su prometida para salvar la fusion empresarial.",
+      "duration_seconds": 115,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep2_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep2.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 3,
+      "title": "Miradas Cruzadas",
+      "synopsis": "Durante la gala de caridad, la quimica entre ambos resulta demasiado real para ser ignorada.",
+      "duration_seconds": 130,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep3_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep3.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 4,
+      "title": "La Revelacion Incompleta",
+      "synopsis": "La ex prometida de Mateo aparece con documentos que comprometen a la familia de Sofia.",
+      "duration_seconds": 125,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep4_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep4.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 5,
+      "title": "Cenizas del Rencor",
+      "synopsis": "Mateo confronta a Sofia sobre su verdadero apellido, creyendo haber sido manipulado.",
+      "duration_seconds": 140,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep5_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep5.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 6,
+      "title": "Una Noche en Manhattan",
+      "synopsis": "Atrapados por una tormenta de nieve, ambos deben afrontar sus verdaderos sentimientos.",
+      "duration_seconds": 110,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep6_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep6.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 7,
+      "title": "La Trampa de la Familia",
+      "synopsis": "El consejo directivo convoca una junta urgente para destituir a Mateo de la presidencia.",
+      "duration_seconds": 135,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep7_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep7.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 8,
+      "title": "Confesiones Bajo la Lluvia",
+      "synopsis": "Sofia renuncia para protegerlo, pero Mateo corre a buscarla antes de que aborde el tren.",
+      "duration_seconds": 145,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep8_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep8.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 9,
+      "title": "El Precio de la Verdad",
+      "synopsis": "Las pruebas del fraude salen a la luz, dejando en evidencia al verdadero traidor corporativo.",
+      "duration_seconds": 150,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep9_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep9.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/el-secreto-del-multimillonario",
+      "season_number": 1,
+      "episode_number": 10,
+      "title": "Destino Imposible",
+      "synopsis": "Con el imperio a salvo y las sombras disipadas, Mateo le pide matrimonio de verdad.",
+      "duration_seconds": 160,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep10_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep10.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 1,
+      "title": "El Encuentro Inesperado",
+      "synopsis": "Sofia llega tarde a su entrevista de trabajo y choca accidentalmente con Mateo en el ascensor.",
+      "duration_seconds": 120,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep1_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep1.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 2,
+      "title": "Un Contrato Inusual",
+      "synopsis": "Mateo le propone a Sofia fingir ser su prometida para salvar la fusion empresarial.",
+      "duration_seconds": 115,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep2_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep2.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 3,
+      "title": "Miradas Cruzadas",
+      "synopsis": "Durante la gala de caridad, la quimica entre ambos resulta demasiado real para ser ignorada.",
+      "duration_seconds": 130,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep3_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep3.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 4,
+      "title": "La Revelacion Incompleta",
+      "synopsis": "La ex prometida de Mateo aparece con documentos que comprometen a la familia de Sofia.",
+      "duration_seconds": 125,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep4_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep4.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 5,
+      "title": "Cenizas del Rencor",
+      "synopsis": "Mateo confronta a Sofia sobre su verdadero apellido, creyendo haber sido manipulado.",
+      "duration_seconds": 140,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep5_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep5.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 6,
+      "title": "Una Noche en Manhattan",
+      "synopsis": "Atrapados por una tormenta de nieve, ambos deben afrontar sus verdaderos sentimientos.",
+      "duration_seconds": 110,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep6_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep6.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 7,
+      "title": "La Trampa de la Familia",
+      "synopsis": "El consejo directivo convoca una junta urgente para destituir a Mateo de la presidencia.",
+      "duration_seconds": 135,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep7_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep7.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 8,
+      "title": "Confesiones Bajo la Lluvia",
+      "synopsis": "Sofia renuncia para protegerlo, pero Mateo corre a buscarla antes de que aborde el tren.",
+      "duration_seconds": 145,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep8_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep8.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 9,
+      "title": "El Precio de la Verdad",
+      "synopsis": "Las pruebas del fraude salen a la luz, dejando en evidencia al verdadero traidor corporativo.",
+      "duration_seconds": 150,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep9_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep9.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/venganza-y-poder",
+      "season_number": 1,
+      "episode_number": 10,
+      "title": "Destino Imposible",
+      "synopsis": "Con el imperio a salvo y las sombras disipadas, Mateo le pide matrimonio de verdad.",
+      "duration_seconds": 160,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep10_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep10.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 1,
+      "title": "El Encuentro Inesperado",
+      "synopsis": "Sofia llega tarde a su entrevista de trabajo y choca accidentalmente con Mateo en el ascensor.",
+      "duration_seconds": 120,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep1_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep1.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 2,
+      "title": "Un Contrato Inusual",
+      "synopsis": "Mateo le propone a Sofia fingir ser su prometida para salvar la fusion empresarial.",
+      "duration_seconds": 115,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep2_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep2.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 3,
+      "title": "Miradas Cruzadas",
+      "synopsis": "Durante la gala de caridad, la quimica entre ambos resulta demasiado real para ser ignorada.",
+      "duration_seconds": 130,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep3_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep3.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 4,
+      "title": "La Revelacion Incompleta",
+      "synopsis": "La ex prometida de Mateo aparece con documentos que comprometen a la familia de Sofia.",
+      "duration_seconds": 125,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep4_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep4.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 5,
+      "title": "Cenizas del Rencor",
+      "synopsis": "Mateo confronta a Sofia sobre su verdadero apellido, creyendo haber sido manipulado.",
+      "duration_seconds": 140,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep5_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep5.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 6,
+      "title": "Una Noche en Manhattan",
+      "synopsis": "Atrapados por una tormenta de nieve, ambos deben afrontar sus verdaderos sentimientos.",
+      "duration_seconds": 110,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep6_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep6.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 7,
+      "title": "La Trampa de la Familia",
+      "synopsis": "El consejo directivo convoca una junta urgente para destituir a Mateo de la presidencia.",
+      "duration_seconds": 135,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep7_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep7.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 8,
+      "title": "Confesiones Bajo la Lluvia",
+      "synopsis": "Sofia renuncia para protegerlo, pero Mateo corre a buscarla antes de que aborde el tren.",
+      "duration_seconds": 145,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep8_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep8.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 9,
+      "title": "El Precio de la Verdad",
+      "synopsis": "Las pruebas del fraude salen a la luz, dejando en evidencia al verdadero traidor corporativo.",
+      "duration_seconds": 150,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep9_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep9.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/la-heredera-rebelde",
+      "season_number": 1,
+      "episode_number": 10,
+      "title": "Destino Imposible",
+      "synopsis": "Con el imperio a salvo y las sombras disipadas, Mateo le pide matrimonio de verdad.",
+      "duration_seconds": 160,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep10_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep10.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 1,
+      "title": "El Encuentro Inesperado",
+      "synopsis": "Sofia llega tarde a su entrevista de trabajo y choca accidentalmente con Mateo en el ascensor.",
+      "duration_seconds": 120,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep1_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep1.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 2,
+      "title": "Un Contrato Inusual",
+      "synopsis": "Mateo le propone a Sofia fingir ser su prometida para salvar la fusion empresarial.",
+      "duration_seconds": 115,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep2_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep2.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 3,
+      "title": "Miradas Cruzadas",
+      "synopsis": "Durante la gala de caridad, la quimica entre ambos resulta demasiado real para ser ignorada.",
+      "duration_seconds": 130,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep3_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep3.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 4,
+      "title": "La Revelacion Incompleta",
+      "synopsis": "La ex prometida de Mateo aparece con documentos que comprometen a la familia de Sofia.",
+      "duration_seconds": 125,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep4_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep4.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 5,
+      "title": "Cenizas del Rencor",
+      "synopsis": "Mateo confronta a Sofia sobre su verdadero apellido, creyendo haber sido manipulado.",
+      "duration_seconds": 140,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep5_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep5.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 6,
+      "title": "Una Noche en Manhattan",
+      "synopsis": "Atrapados por una tormenta de nieve, ambos deben afrontar sus verdaderos sentimientos.",
+      "duration_seconds": 110,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep6_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep6.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 7,
+      "title": "La Trampa de la Familia",
+      "synopsis": "El consejo directivo convoca una junta urgente para destituir a Mateo de la presidencia.",
+      "duration_seconds": 135,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep7_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep7.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 8,
+      "title": "Confesiones Bajo la Lluvia",
+      "synopsis": "Sofia renuncia para protegerlo, pero Mateo corre a buscarla antes de que aborde el tren.",
+      "duration_seconds": 145,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep8_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep8.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 9,
+      "title": "El Precio de la Verdad",
+      "synopsis": "Las pruebas del fraude salen a la luz, dejando en evidencia al verdadero traidor corporativo.",
+      "duration_seconds": 150,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep9_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep9.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/amor-en-la-oficina",
+      "season_number": 1,
+      "episode_number": 10,
+      "title": "Destino Imposible",
+      "synopsis": "Con el imperio a salvo y las sombras disipadas, Mateo le pide matrimonio de verdad.",
+      "duration_seconds": 160,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep10_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep10.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 1,
+      "title": "El Encuentro Inesperado",
+      "synopsis": "Sofia llega tarde a su entrevista de trabajo y choca accidentalmente con Mateo en el ascensor.",
+      "duration_seconds": 120,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep1_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep1.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 2,
+      "title": "Un Contrato Inusual",
+      "synopsis": "Mateo le propone a Sofia fingir ser su prometida para salvar la fusion empresarial.",
+      "duration_seconds": 115,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep2_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep2.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 3,
+      "title": "Miradas Cruzadas",
+      "synopsis": "Durante la gala de caridad, la quimica entre ambos resulta demasiado real para ser ignorada.",
+      "duration_seconds": 130,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep3_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep3.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 4,
+      "title": "La Revelacion Incompleta",
+      "synopsis": "La ex prometida de Mateo aparece con documentos que comprometen a la familia de Sofia.",
+      "duration_seconds": 125,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep4_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep4.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 5,
+      "title": "Cenizas del Rencor",
+      "synopsis": "Mateo confronta a Sofia sobre su verdadero apellido, creyendo haber sido manipulado.",
+      "duration_seconds": 140,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep5_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep5.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 6,
+      "title": "Una Noche en Manhattan",
+      "synopsis": "Atrapados por una tormenta de nieve, ambos deben afrontar sus verdaderos sentimientos.",
+      "duration_seconds": 110,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep6_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep6.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 7,
+      "title": "La Trampa de la Familia",
+      "synopsis": "El consejo directivo convoca una junta urgente para destituir a Mateo de la presidencia.",
+      "duration_seconds": 135,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep7_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep7.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 8,
+      "title": "Confesiones Bajo la Lluvia",
+      "synopsis": "Sofia renuncia para protegerlo, pero Mateo corre a buscarla antes de que aborde el tren.",
+      "duration_seconds": 145,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep8_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep8.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 9,
+      "title": "El Precio de la Verdad",
+      "synopsis": "Las pruebas del fraude salen a la luz, dejando en evidencia al verdadero traidor corporativo.",
+      "duration_seconds": 150,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep9_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep9.m3u8"
+    },
+    {
+      "series_source_url": "https://demo.dramaapp.local/series/sombras-del-pasado",
+      "season_number": 1,
+      "episode_number": 10,
+      "title": "Destino Imposible",
+      "synopsis": "Con el imperio a salvo y las sombras disipadas, Mateo le pide matrimonio de verdad.",
+      "duration_seconds": 160,
+      "thumbnail_url": "https://demo.dramaapp.local/images/episodes/ep10_thumb.jpg",
+      "source_video_url": "https://demo.dramaapp.local/media/stream/ep10.m3u8"
+    }
+  ],
+  "rights": []
+}

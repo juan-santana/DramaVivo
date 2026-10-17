@@ -1,0 +1,45 @@
+# Environment
+.env
+*.env.local
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.log
+.mvn/wrapper/maven-wrapper.jar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+venv/
+.venv/
+scraper/*.html
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+
+# Uploads
+uploads/
+temp/
